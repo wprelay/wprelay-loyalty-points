@@ -1,0 +1,9 @@
+{
+  "name": "relaywp/loyalty-points",
+  "autoload": {
+    "psr-4": {
+      "RelayWP\\LPoints\\Src\\": "src/",
+      "RelayWP\\LPoints\\App\\": "app/"
+    }
+  }
+}
