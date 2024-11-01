@@ -7,7 +7,7 @@ $store_front_hooks = [
         'wpr_process_lpoints_payouts' => ['callable' => [LPoints::class, 'sendPayments'], 'priority' => 11, 'accepted_args' => 1],
     ],
     'filters' => [
-        'rwp_payment_process_sources' => ['callable' => [LPoints::class, 'addPayment'], 'priority' => 11, 'accepted_args' => 4],
+        'rwpa_payment_process_sources' => ['callable' => [LPoints::class, 'addPayment'], 'priority' => 11, 'accepted_args' => 4],
     ]
 ];
 

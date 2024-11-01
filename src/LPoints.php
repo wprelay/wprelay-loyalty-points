@@ -92,13 +92,13 @@ class LPoints extends RWPPayment
                 $status = $response['success'];
                 $message = $response['data']['message'];
                 if ($status) {
-                    do_action('rwp_payment_mark_as_succeeded', $item['affiliate_payout_id'], ['message' => $message]);
+                    do_action('rwpa_payment_mark_as_succeeded', $item['affiliate_payout_id'], ['message' => $message]);
                     continue;
                 }
             }
 
             $message = $message ?? 'Unable to Convert as Points. Please Try Again Later';
-            do_action('rwp_payment_mark_as_failed', $item['affiliate_payout_id'], ['message' => $message]);
+            do_action('rwpa_payment_mark_as_failed', $item['affiliate_payout_id'], ['message' => $message]);
         }
     }
 
