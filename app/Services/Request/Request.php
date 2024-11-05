@@ -2,6 +2,7 @@
 
 namespace RelayWP\LPoints\App\Services\Request;
 
+defined('ABSPATH') or exit;
 
 use RelayWP\LPoints\App\Helpers\Functions;
 use RelayWP\LPoints\App\Services\Validation\ValidateHelper;
@@ -172,4 +173,3 @@ class Request
         return $value;
     }
 }
-

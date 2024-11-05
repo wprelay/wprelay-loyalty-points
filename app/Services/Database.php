@@ -2,6 +2,8 @@
 
 namespace RelayWP\LPoints\App\Services;
 
+defined('ABSPATH') or exit;
+
 use RelayWP\LPoints\App\Traits\Conditionable;
 use RelayWP\LPoints\App\Traits\useScopes;
 

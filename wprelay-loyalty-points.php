@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * Plugin Name:          RelayWP Points 
  * Description:          Payouts Using WPLoyalty for RelayWP

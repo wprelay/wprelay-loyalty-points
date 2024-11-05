@@ -1,5 +1,6 @@
 <?php
 
+defined('ABSPATH') or exit;
 
 $store_front_hooks = [
     'actions' => [

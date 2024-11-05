@@ -2,6 +2,8 @@
 
 namespace RelayWP\LPoints\App\Traits;
 
+defined('ABSPATH') or exit;
+
 trait useScopes
 {
     public function nameLike($column1, $column2, $value, $isWhere = true)
@@ -31,4 +33,3 @@ trait useScopes
         return $query->orWhere("$column LIKE %s", ["%{$value}%"]);
     }
 }
-

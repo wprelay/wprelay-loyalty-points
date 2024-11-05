@@ -2,6 +2,8 @@
 
 namespace RelayWP\LPoints\App\Services\Validation;
 
+defined('ABSPATH') or exit;
+
 use RelayWP\LPoints\App\Services\Request\Request;
 
 interface FormRequest
@@ -10,4 +12,3 @@ interface FormRequest
 
     public function messages(): array;
 }
-

@@ -1,3 +1,6 @@
+<?php
+defined('ABSPATH') or exit;
+?>
 <style>
     .heading {
         padding: 1rem 0;

@@ -2,6 +2,8 @@
 
 namespace RelayWP\LPoints\App;
 
+defined('ABSPATH') or exit;
+
 class Container
 {
     public $bindings = [];
@@ -24,4 +26,3 @@ class Container
         }
     }
 }
-

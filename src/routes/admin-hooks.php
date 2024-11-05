@@ -1,5 +1,6 @@
 <?php
 
+defined('ABSPATH') or exit;
 //All routes actions will be performed in Route::handleAuthRequest method.
 
 use RelayWP\LPoints\App\Hooks\AdminHooks;
@@ -22,4 +23,3 @@ return [
     'admin_hooks' => $admin_hooks,
     'store_front_hooks' => $store_front_hooks
 ];
-

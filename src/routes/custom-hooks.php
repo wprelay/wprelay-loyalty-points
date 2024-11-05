@@ -1,5 +1,7 @@
 <?php
 
+defined('ABSPATH') or exit;
+
 use RelayWP\LPoints\Src\LPoints;
 
 $store_front_hooks = [

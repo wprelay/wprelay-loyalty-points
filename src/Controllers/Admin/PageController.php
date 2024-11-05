@@ -2,6 +2,8 @@
 
 namespace RelayWP\LPoints\Src\Controllers\Admin;
 
+defined('ABSPATH') or exit;
+
 use RelayWP\LPoints\App\Helpers\PluginHelper;
 use RelayWP\LPoints\App\Helpers\WordpressHelper;
 use RelayWP\LPoints\App\Services\View;

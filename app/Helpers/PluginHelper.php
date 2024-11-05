@@ -2,9 +2,10 @@
 
 namespace RelayWP\LPoints\App\Helpers;
 
+defined('ABSPATH') or exit;
+
 use Exception;
 
-defined('ABSPATH') or exit;
 
 class PluginHelper
 {

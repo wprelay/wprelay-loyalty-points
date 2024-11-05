@@ -2,6 +2,8 @@
 
 namespace RelayWP\LPoints\Src\Models;
 
+defined('ABSPATH') or exit;
+
 use RelayWP\LPoints\App\Services\Database;
 use RelayWP\LPoints\App\Traits\Conditionable;
 use RelayWP\LPoints\App\Traits\ForwardCalls;

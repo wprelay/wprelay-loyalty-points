@@ -2,6 +2,8 @@
 
 namespace RelayWP\LPoints\Src;
 
+defined('ABSPATH') or exit;
+
 use RelayWp\Affiliate\Core\Models\Affiliate;
 use RelayWp\Affiliate\Core\Models\Member;
 use RelayWp\Affiliate\Core\Payments\RWPPayment;

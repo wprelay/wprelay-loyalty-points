@@ -2,6 +2,8 @@
 
 namespace RelayWP\LPoints\App\Services\Validation;
 
+defined('ABSPATH') or exit;
+
 use RelayWP\LPoints\App\Services\Database;
 use RelayWP\LPoints\App\Services\Request\Request;
 use RelayWP\LPoints\App\Services\Request\Response;
@@ -73,4 +75,3 @@ trait ValidateHelper
         return false;
     }
 }
-

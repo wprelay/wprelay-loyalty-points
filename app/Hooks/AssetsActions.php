@@ -2,6 +2,8 @@
 
 namespace RelayWP\LPoints\App\Hooks;
 
+defined('ABSPATH') or exit;
+
 use RelayWP\LPoints\App\Helpers\AssetHelper;
 use RelayWP\LPoints\App\Helpers\WordpressHelper;
 use RelayWP\LPoints\App\Services\Settings;

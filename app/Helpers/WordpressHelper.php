@@ -3,6 +3,7 @@
 namespace RelayWP\LPoints\App\Helpers;
 
 defined('ABSPATH') or exit;
+
 class WordpressHelper
 {
 

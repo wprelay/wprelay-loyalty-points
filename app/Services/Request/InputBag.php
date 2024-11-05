@@ -2,6 +2,8 @@
 
 namespace RelayWP\LPoints\App\Services\Request;
 
+defined('ABSPATH') or exit;
+
 class InputBag extends ParameterBag
 {
 

@@ -2,6 +2,8 @@
 
 namespace RelayWP\LPoints\App;
 
+defined('ABSPATH') or exit;
+
 use RelayWP\LPoints\App\Setup;
 
 class App extends Container

@@ -2,6 +2,8 @@
 
 namespace RelayWP\LPoints\App;
 
+defined('ABSPATH') or exit;
+
 use RelayWP\LPoints\App\Hooks\AdminHooks;
 use RelayWP\LPoints\App\Hooks\CustomHooks;
 use RelayWP\LPoints\App\Hooks\WPHooks;

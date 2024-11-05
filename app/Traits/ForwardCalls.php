@@ -2,6 +2,8 @@
 
 namespace RelayWP\LPoints\App\Traits;
 
+defined('ABSPATH') or exit;
+
 use BadMethodCallException;
 use Error;
 
@@ -77,4 +79,3 @@ trait ForwardCalls
         ));
     }
 }
-
