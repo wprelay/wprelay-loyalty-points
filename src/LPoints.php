@@ -28,7 +28,7 @@ class LPoints extends RWPPayment
             'value' => 'lpoints',
             'label' => 'Payment as Loyalty Points',
             'description' => 'Process Payouts for your affiliates through Loyalty Points',
-            'note' => 'Process Payouts for your affiliates through Loyalty Points',
+            'note' => 'To process affiliate payouts through the Loyalty Points system, convert each affiliate’s earned commission amount into points based on a predefined points-to-currency ratio',
             'target_url' => PluginHelper::getAdminDashboard(),
         ];
     }
